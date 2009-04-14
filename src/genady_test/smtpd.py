@@ -1,6 +1,6 @@
-import SocketServer;
-import re;
-import threading;
+import SocketServer
+import re
+import threading
 
 class dummysmtpd(SocketServer.ThreadingMixIn, SocketServer.TCPServer):
 	"""Test smtpd class"""
